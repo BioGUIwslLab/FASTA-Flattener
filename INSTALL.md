@@ -35,12 +35,12 @@ sudo apt update && sudo apt upgrade
 ```
 8. Close the termimal after the update finishes
 
-9. download  `fasta_flattener.sh`
+9. Open the terminal and download  `fasta_flattener.sh`
 
 ```Bash
 wget https://raw.githubusercontent.com/BioGUIwsl1Lab/FASTA-Flattener/refs/heads/main/src/bash/fasta_flattener.sh
 ```
-10. convert to executable
+10. Convert to executable
 
 ```Bash
 chmod +x fasta_flattener.sh
