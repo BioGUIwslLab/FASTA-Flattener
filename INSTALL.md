@@ -38,7 +38,7 @@ sudo apt update && sudo apt upgrade
 9. download  `fasta_flattener.sh`
 
 ```Bash
-wget 
+wget https://raw.githubusercontent.com/BioGUIwsl1Lab/FASTA-Flattener/refs/heads/main/src/bash/fasta_flattener.sh
 ```
 10. convert to executable
 
