@@ -28,14 +28,21 @@ The first time you launch a newly installed Linux distribution, a console window
 
     * Each Linux distribution running on WSL has its own Linux user accounts and passwords. You will have to configure a Linux user account every time you add a distribution, reinstall, or reset. 
 
-7. Run the following command to make sure that the command line programs work properly  
+7. Finally, go to Powershell and run the following commands:
 
-```Bash
-sudo apt update && sudo apt upgrade
+```PowerShell
+wsl --update
 ```
+```PowerShell
+wsl --set-default-version 2
+```
+```PowerShell
+wsl --set-default Ubuntu-24.04
+```
+
 8. Close the termimal after the update finishes
 
-9. Open the terminal and download  `fasta_flattener.sh`
+9. Open the ubuntu terminal and download  `fasta_flattener.sh`
 
 ```Bash
 wget https://raw.githubusercontent.com/BioGUIwsl1Lab/FASTA-Flattener/refs/heads/main/src/bash/fasta_flattener.sh
